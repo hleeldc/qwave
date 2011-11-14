@@ -1,0 +1,3 @@
+target = qwave4
+sources = sipqwave4cmodule.cpp sipqwave4WaveformVRuler.cpp sipqwave4WaveformSelectionProxy.cpp sipqwave4WaveformScrollBar.cpp sipqwave4WaveformRuler.cpp sipqwave4WaveformRegion.cpp sipqwave4WaveformCursorProxy.cpp sipqwave4WaveformBar.cpp sipqwave4Waveform.cpp sipqwave4TimeLabel.cpp sipqwave4SndPlayerTicker.cpp sipqwave4SndPlayer.cpp sipqwave4SndFile.cpp sipqwave4PlayerPositionEvent.cpp sipqwave4SampleRateConverterError.cpp sipqwave4AudioDeviceError.cpp sipqwave4SoundFileOpenError.cpp
+headers = sipAPIqwave4.h
