@@ -7,9 +7,9 @@ Pre-requisites
 QWave depends on the following software packages. Make sure these are available
 before you begin.
 
- libsndfile
- libsamplerate
- Qt4
+- libsndfile
+- libsamplerate
+- Qt4
 
 If you want to compile the Python binding, the followings are needed as well.
 
