@@ -13,9 +13,9 @@ before you begin.
 
 If you want to compile the Python binding, the followings are needed as well.
 
- Python
- SIP
- PyQt4
+- Python
+- SIP
+- PyQt4
 
 On many linux distros, you will have to install the "devel" packages too,
 since the header and library files are included in those "devel" packages.
@@ -25,13 +25,15 @@ On linux
 
 The following will work most of the time.
 
- cd src
- qmake
- make
+```
+cd src
+qmake
+make
+```
 
 If not, it's likely that the header files or library files of libsndfile and
-libsamplerate are not found. Check src/lib.pro file, especially the
-"unix:linux-g++" section. Look for lines with INCLUDEPATH and LIBS and fix them
+libsamplerate are not found. Check `src/lib.pro` file, especially the
+`unix:linux-g++` section. Look for lines with INCLUDEPATH and LIBS and fix them
 if necessary.
 
 Also, make sure that the right version of Qt is being used. Try "qmake -query".
@@ -41,12 +43,14 @@ causes wierd problems.
 
 To compile a QWave Python module, try the following.
 
- mkdir python
- cd sip
- python config.py
- cd ../python
- make
+```
+mkdir python
+cd sip
+python config.py
+cd ../python
+make
+```
 
-If things go wrong, this time check the config.py file. Especially, check lines
-with "makefile.extra_include_dirs" and "makefile.extra_lib_dirs".
+If things go wrong, this time check the `config.py` file. Especially, check lines
+with `makefile.extra_include_dirs` and `makefile.extra_lib_dirs`.
 
