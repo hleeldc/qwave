@@ -36,7 +36,7 @@ libsamplerate are not found. Check `src/lib.pro` file, especially the
 `unix:linux-g++` section. Look for lines with INCLUDEPATH and LIBS and fix them
 if necessary.
 
-Also, make sure that the right version of Qt is being used. Try "qmake -query".
+Also, make sure that the right version of Qt is being used. Try `qmake -query`.
 
 Also note that having Qt3 headers and libraries in compiler's search path
 causes wierd problems.
