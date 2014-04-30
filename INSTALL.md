@@ -9,6 +9,7 @@ before you begin.
 
 - libsndfile
 - libsamplerate
+- libasound2 (alsa-lib)
 - Qt4
 
 If you want to compile the Python binding, the followings are needed as well.
