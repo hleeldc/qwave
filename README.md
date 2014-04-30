@@ -1,4 +1,4 @@
 qwave
 =====
 
-Waveform display widget based on Qt
+Waveform display widget based on Qt4
