@@ -7,8 +7,7 @@ INCLUDEPATH += ../src
 DEPENDPATH += ../src ../src/QWave4
 
 unix {
-        LIBS += -L../src -L/ldc/lib -lqwave4
-    INCLUDEPATH += /ldc/include
+        LIBS += -L../src -lqwave4
 }
 
 win32 {

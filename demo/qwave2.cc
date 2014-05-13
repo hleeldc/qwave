@@ -9,7 +9,7 @@
 #ifdef _MSC_VER
 #include <QWave4/SndPlayerDirectSound.h>
 #else
-#include <QWave4/SndPlayerAlsa.h>
+#include <QWave4/SndPlayerPa.h>
 #endif
 #include <cmath>
 #include <math.h>
